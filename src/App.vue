@@ -34,7 +34,7 @@
 li {
   list-style-type: none;
   margin: 2em;
-  font-size: 20pt;
+  font-size: 1.5vw;
   text-align: center;
 }
 
