@@ -1,15 +1,17 @@
 <template>
   <div class="home page">
-    <h1>This is an HOME page</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate suscipit labore vitae culpa consequatur ad laudantium distinctio omnis, iusto officia repellat doloribus pariatur ullam quidem tempore cumque reiciendis? Voluptatem, incidunt.</p>
-    <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <div class="introduction">
+    <h1>HELLO,</h1>
+    <h2>I am Wee Jia Quan, a student in University of British Columbia with experience with System Administration / Web Development from Malaysia.</h2>
+    <h3>I have rich experience in IT, Web Hosting and developing, scripting, and reimaging machines in production environment.</h3>
+</div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
+import gsap from "gsap";
 
 export default {
   name: "Home",
